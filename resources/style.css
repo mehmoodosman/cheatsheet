@@ -7,15 +7,14 @@ body {
 
 .header {
     font-family: "Lucida Console", Courier, monospace;
+    font-size: 1.5rem;
 }
 
 a{
     text-decoration: none;
     color: indianred;
     border-radius: 10%;
-    border:solid 3px burlywood;
     padding: 2px;
-    text-decoration: underline;
 }
 
 h1,h2,h3 {
@@ -66,3 +65,25 @@ th {
 .bold {
     font-weight: bold;
 }
+
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:indianred;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }

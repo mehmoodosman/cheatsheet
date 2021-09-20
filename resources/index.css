@@ -28,10 +28,33 @@ ul {
 }
 
 a {
-    color: DarkOrange;
+    color:darkorange;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
     flex: 1;
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+a.right
+{
+    position: relative;
+}
+
+a.right:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color:darkorange;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.right:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+  
