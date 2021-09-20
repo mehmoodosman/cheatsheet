@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono:400,700">
+    <link rel="stylesheet" href="./resources/style.css">
+    <title>CSS Cheat Sheet</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1><a href="./index.html">Home</a></h1>
+        <br>
+        <h1>CSS FlexBox CheatSheet</h1>
+    </div>
+    <br><br>
+    <h3>Horizontal Allign</h3>
+    <br>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="spacemono">justify-content: flex-start;</td>
+                    <td>Items align to the left side of the container.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">justify-content: flex-end;</td>
+                    <td>Items align to the right side of the container.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">justify-content: center;</td>
+                    <td>Items align at the center of the container.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">justify-content: space-between;</td>
+                    <td>Items display with equal spacing between them.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">justify-content: space-around;</td>
+                    <td>Items display with equal spacing around them.</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3>Vertical Allign</h3>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="spacemono">align-items: flex-start;</td>
+                    <td>Items align to the top of the container.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">align-items: flex-end;</td>
+                    <td>Items align to the bottom of the container.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">align-items: center;</td>
+                    <td>Items align at the vertical center of the container.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">align-items: baseline;</td>
+                    <td>Items display at the baseline of the container.</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">align-items: stretch;</td>
+                    <td>Items are stretched to fit the container.</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3>Direction/Wrap</h3>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="spacemono">flex-direction: (row, column, row-reverse, column-reverse);</td>
+                    <td>Defines the direction items are placed in the container</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">flex-wrap: (nowrap, wrap, wrap-reverse);</td>
+                    <td>By default, flex items will all try to fit onto one line</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">flex-flow: flex-direction flex-wrap;</td>
+                    <td>This shorthand property accepts the value of the two properties separated by a space</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">order</td>
+                    <td>Accepts numeric values to determine order of flex elements</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">align-content</td>
+                    <td>To set how multiple lines are spaced apart from each other</td>
+                </tr>
+                <tr>
+                    <td class="spacemono">flex</td>
+                    <td>Shorthand property for flex-grow, flex-shrink, flex-basis</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
