@@ -33,6 +33,9 @@ table {
     background-color: bisque;
     text-align: center;
     border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out,
+                transform 450ms linear 0.3s;
 }
 
 td, th {
@@ -91,3 +94,8 @@ a.left:hover:before {
     visibility: visible;
     width: 100%;
   }
+
+table:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}  
