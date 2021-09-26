@@ -19,6 +19,9 @@ a{
     color: indianred;
     border-radius: 10%;
     padding: 2px;
+    border: solid 4px black;
+    /* border-style: hidden; */
+    transition: all 200ms ease;
 }
 
 h1,h2,h3 {
@@ -98,6 +101,19 @@ a.left:hover:before {
 
 table:hover {
     transform: scale(1.1);
-    box-shadow: -2px 2px black; 
+    box-shadow: -3px 3px black;
     /* opacity: 1; */
-}  
+}
+
+table:focus {
+    font-family: "Space Mono";
+    background-color:transparent;
+    font-size: 25px;
+    transform: translate(25px);
+    box-shadow: -10px 10px black;
+}
+
+a:hover {
+    box-shadow: -4px 2px black;
+    font-size: 55px;
+}
