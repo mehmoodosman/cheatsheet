@@ -120,7 +120,7 @@ a:hover {
     font-size: 55px;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (max-width: 768px) {
     table:focus {
         font-family: "Space Mono";
         background-color:transparent;
