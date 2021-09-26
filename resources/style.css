@@ -105,15 +105,27 @@ table:hover {
     /* opacity: 1; */
 }
 
-table:focus {
-    font-family: "Space Mono";
-    background-color:transparent;
-    font-size: 25px;
-    transform: translate(25px);
-    box-shadow: -10px 10px black;
+@media screen and (min-width: 1024px) {
+    table:focus {
+        font-family: "Space Mono";
+        background-color:transparent;
+        font-size: 25px;
+        transform: translate(25px);
+        box-shadow: -10px 10px black;
+    }
 }
 
 a:hover {
-    box-shadow: -4px 2px black;
+    box-shadow: -4px 4px black;
     font-size: 55px;
+}
+
+@media screen and (min-width: 480px) {
+    table:focus {
+        font-family: "Space Mono";
+        background-color:transparent;
+        font-size: 20px;
+        transform: translate(5px);
+        box-shadow: -5px 5px black;
+    }
 }
