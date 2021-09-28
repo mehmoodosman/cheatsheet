@@ -38,7 +38,7 @@ table {
     border-radius: 10px;
     /* opacity: 0; */
     /* transition: transform 450ms linear 0.3s; */
-    transition: box-shadow 200ms ease, transform 200ms ease;
+    transition: transform 200ms ease;
     /* transition: opacity 0.3s ease-in-out; */
 }
 
@@ -101,7 +101,7 @@ a.left:hover:before {
 
 table:hover {
     transform: scale(1.1);
-    box-shadow: -3px 3px black;
+    /* box-shadow: -3px 3px black; */
     /* opacity: 1; */
 }
 
